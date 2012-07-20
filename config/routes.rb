@@ -1,5 +1,7 @@
 Connectmein::Application.routes.draw do
 
+  get "console/index"
+
   resources :console
 
   # The priority is based upon order of creation:
